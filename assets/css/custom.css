@@ -399,7 +399,6 @@ header
 
 .header-area {
   background-color: #fff;
-  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.03);
   position: absolute;
   left: 0px;
   right: 0px;
@@ -467,7 +466,8 @@ header
 .header-area .main-nav .nav li:last-child a,
 .background-header .main-nav .nav li:last-child a {
   padding: 0px 20px !important;
-  font-weight: 400;
+  font-weight: 500;
+  color: #4da6e7
 }
 
 .header-area .main-nav .nav li a {
@@ -982,11 +982,20 @@ Banner Style
   margin-right: 15px;
 }
 
+.main-banner .left-content h1 {
+  text-transform: capitalize;
+  font-size: 36px;
+  font-weight: 700;
+  color: #4da6e7;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
 .main-banner .left-content h6 {
   text-transform: capitalize;
   font-size: 20px;
   font-weight: 700;
-  color: #4da6e7;
+  color: #2a2a2a;
   margin-bottom: 15px;
   text-transform: uppercase;
 }
@@ -1361,7 +1370,7 @@ Services Style
 .services .naccs .menu div .thumb {
   display: inline-block;
   width: 100%;
-  padding: 30px 0px;
+  padding: 30px 10px;
   background-color: #fff;
 }
 
@@ -2158,5 +2167,22 @@ responsive
   }
   form#contact {
     padding: 30px;
+  }
+}
+
+@media (min-width: 320px) {
+  .services .naccs .menu div {
+    width: 24%;
+  }
+}
+@media (min-width: 481px) {
+  .services .naccs .menu div {
+    width: 24%;
+  }
+}
+
+@media (min-width: 767px) {
+  .services .naccs .menu div {
+    width: 24%;
   }
 }
