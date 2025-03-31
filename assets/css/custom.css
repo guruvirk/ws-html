@@ -237,9 +237,9 @@ body {
 }
 
 .logo-img {
-  height: 80px;
-  width: auto;
-  aspect-ratio: 1;
+  height: 80px !important;
+  width: auto !important;
+  aspect-ratio: 1 !important;
 }
 
 .page-section {
